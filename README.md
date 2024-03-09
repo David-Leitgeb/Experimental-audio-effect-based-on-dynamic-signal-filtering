@@ -1,3 +1,3 @@
 # Experimental-Audio-Effect-Based-on-Dynamic-Signal-Filtering
 
-![Image Description](graphic\ examples/fig_prototype_gui.png)
+![Image Description](/graphic_examples/fig_prototype_gui.png)
