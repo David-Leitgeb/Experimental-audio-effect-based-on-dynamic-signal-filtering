@@ -6,15 +6,17 @@ Contact: xleitg03@vutbr.cz
 This repository contains supplementary material for the STUDENT EEICT 2024 paper: Experimental audio effect based on dynamic signal filtering
 
 ## Audio effect plug-in
-This is the graphical interface of the audio effect plug-in developed in Matlab.
+This is the graphical interface of the audio effect plug-in developed in Matlab and its Audio Toolbox extension.
 ![Graphical interface of the audio effect plug-in](/graphic_examples/fig_gui.png)
 
 
 ## Graphic and audio examples
-This section includes all of the examples prepared to showcase the functionality of the individual features of the audio effect plug-in. Most of them have both graphic and audio form linked here, some are only in the form of audio files. Each example has description of the used parameters.
+This section includes all of the examples prepared to showcase the functionality of the individual features of the audio effect plug-in. Most of them have both graphic and audio file form linked here, some are only in the form of audio files. Each example has description of the parameter settings used during its preparation.
 ### Frequency filters
 Following examples showcase the seven implemented types of frequency filters. The input signal that was used for all the filter examples was [white noise](/audio_examples/aud_input_white_noise.wav).
-- parameters:
+
+![Frequency filter controls](/graphic_examples/fig_gui_filters.png)
+- available parameters:
   - f<sub>C</sub> – cutoff frequency
   - Q – filter Q
   - f<sub>G</sub> – filter gain
@@ -73,6 +75,12 @@ Following examples showcase the seven implemented types of frequency filters. Th
   - [Frequency spectrum](/graphic_examples/frequency_filters/fig_results_LP.pdf)
   - [Audio file](/audio_examples/frequency_filters/aud_results_filter_LP.wav)
 ### Delay line
+![Delay line controls](/graphic_examples/fig_gui_delay_line.png)
+
+- available parameters:
+  - delay time
+  - a<sub>FB</sub> – feedback
+  - a<sub>FF</sub> – feedforward
 #### Vibrato
 input signal: [sine wave (1 kHz)](/audio_examples/aud_input_sine_1kHz.wav)
 - parameters:
@@ -122,7 +130,17 @@ Following examples are audio only:
   - [Audio file](/audio_examples//delay_line/aud_results_flanger.wav)
 
 ### Low-frequency oscillators
-- Tempo = 140 BPM
+![LFO controls](/graphic_examples/fig_gui_lfo.png)
+![LFO modulation controls](/graphic_examples/fig_gui_lfo_modulation.png)
+
+- available parameters:
+  - LFO shape
+  - rate (Hz/note length)
+  - time mode switch (Hz/sync)
+  - depth
+  - modulation depth
+
+Tempo used for all of the following examples was 140 BPM.
 #### Auto-Wah
 - parameters:
   - modulated parameter: f<sub>C</sub>
@@ -136,7 +154,7 @@ Following examples are audio only:
 
 #### Auto-Pan
 - parameters:
-  - modulated parameter: pan
+  - modulated parameter: panorama
   - Pan(LFO1) = 100 %
   - rate = 1/4 note
 - files:
