@@ -205,7 +205,31 @@ Tempo used for all of the following examples was 140 BPM.
   - input signal: [white noise](/audio_examples/aud_input_white_noise.wav)
   - [Spectrogram](/graphic_examples/low_frequency_oscillators/fig_results_lfo_s&h.pdf)
   - [Audio file](/audio_examples/low_frequency_oscillators/aud_results_lfo_s&h_wave.wav)
+    
+### Musical signals
+This section includes three more audio examples performed on musical signals (vocal, synth, percussion). All of the used input signals are from the Core Library included with Ableton Live.
 
+#### Vocal
+parameters:
+![Vocal effect settings](/graphic_examples/fig_results_vocal_effect.png)
+- files:
+  - [Input signal](/audio_examples/aud_input_vocal.wav)
+  - [Output signal](/audio_examples/aud_results_vocal_effect.wav)
+    
+#### Synth plucks and pad
+parameters:
+![Pluck and pad effect settings](/graphic_examples/fig_results_pluck_pad_effect.png)
+- files:
+  - [Input signal](/audio_examples/aud_input_pluck_pad.wav)
+  - [Output signal](/audio_examples/aud_results_pluck_pad_effect.wav)
+    
+#### Percussion
+parameters:
+![Percussion effect settings](/graphic_examples/fig_results_percussion_effect.png)
+- files:
+  - [Input signal](/audio_examples/aud_input_percussion.wav)
+  - [Output signal](/audio_examples/aud_results_percussion_effect.wav)
+    
 ## Source code
 Developed using:
 - Matlab (version R2023b)
